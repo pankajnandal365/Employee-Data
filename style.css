@@ -1,0 +1,49 @@
+body{
+    background-color: coral;
+}
+.container{
+    background-color: white;
+    width: 50%;
+}
+.bold{
+    margin-left: 197px;
+    margin-top: 15px;
+}
+.gender{
+    margin-left: 265px;
+}
+#btn{
+   margin-left: 310px;
+   margin-top: 30px;
+   background-color: blue;
+   color: white;
+   padding: 8px;
+   border-radius: 3px;
+}
+.container1{
+    background-color: white;
+    width: 45%;
+    margin-left: 70px;
+    
+}
+.full{
+    display: flex;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    border-radius: 3px;
+    margin-left: 85px;
+ }
+.btn:hover{
+    background-color: aquamarine;
+    color: black;
+}
+#btn:hover{
+    background-color: aquamarine;
+    color: black;
+}
+tr > * + *{
+    padding-left: 11em;
+   }
